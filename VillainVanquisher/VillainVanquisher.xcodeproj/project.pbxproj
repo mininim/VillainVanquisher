@@ -14,6 +14,8 @@
 		074815512A389ED700DF6A85 /* StoryBook.swift in Sources */ = {isa = PBXBuildFile; fileRef = 074815502A389ED700DF6A85 /* StoryBook.swift */; };
 		074815552A38A0B200DF6A85 /* StoryBookStorageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 074815542A38A0B200DF6A85 /* StoryBookStorageView.swift */; };
 		0748155A2A38A24100DF6A85 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 074815592A38A24100DF6A85 /* Constants.swift */; };
+		0776A8A82A38B19200CF121E /* StoryBookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0776A8A72A38B19200CF121E /* StoryBookView.swift */; };
+		0776A8AA2A38B8F000CF121E /* Color+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0776A8A92A38B8F000CF121E /* Color+.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +27,8 @@
 		074815502A389ED700DF6A85 /* StoryBook.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryBook.swift; sourceTree = "<group>"; };
 		074815542A38A0B200DF6A85 /* StoryBookStorageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryBookStorageView.swift; sourceTree = "<group>"; };
 		074815592A38A24100DF6A85 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		0776A8A72A38B19200CF121E /* StoryBookView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryBookView.swift; sourceTree = "<group>"; };
+		0776A8A92A38B8F000CF121E /* Color+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +83,7 @@
 			isa = PBXGroup;
 			children = (
 				074815592A38A24100DF6A85 /* Constants.swift */,
+				0776A8A92A38B8F000CF121E /* Color+.swift */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -104,6 +109,7 @@
 			isa = PBXGroup;
 			children = (
 				074815542A38A0B200DF6A85 /* StoryBookStorageView.swift */,
+				0776A8A72A38B19200CF121E /* StoryBookView.swift */,
 			);
 			path = StoryBookStorage;
 			sourceTree = "<group>";
@@ -178,9 +184,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0776A8AA2A38B8F000CF121E /* Color+.swift in Sources */,
 				0748155A2A38A24100DF6A85 /* Constants.swift in Sources */,
 				074815402A38089700DF6A85 /* ContentView.swift in Sources */,
 				074815552A38A0B200DF6A85 /* StoryBookStorageView.swift in Sources */,
+				0776A8A82A38B19200CF121E /* StoryBookView.swift in Sources */,
 				0748153E2A38089700DF6A85 /* VillainVanquisherApp.swift in Sources */,
 				074815512A389ED700DF6A85 /* StoryBook.swift in Sources */,
 			);
