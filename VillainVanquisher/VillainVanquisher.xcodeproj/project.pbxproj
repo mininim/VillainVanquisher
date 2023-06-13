@@ -57,12 +57,12 @@
 		0748153C2A38089700DF6A85 /* VillainVanquisher */ = {
 			isa = PBXGroup;
 			children = (
-				074815412A38089900DF6A85 /* Assets.xcassets */,
 				0748153D2A38089700DF6A85 /* VillainVanquisherApp.swift */,
-				0748154B2A389D9100DF6A85 /* Resources */,
-				074815522A389FFE00DF6A85 /* Views */,
-				0748154F2A389EB700DF6A85 /* Models */,
 				074815432A38089900DF6A85 /* Preview Content */,
+				074815412A38089900DF6A85 /* Assets.xcassets */,
+				0748154B2A389D9100DF6A85 /* Resources */,
+				0748154F2A389EB700DF6A85 /* Models */,
+				074815522A389FFE00DF6A85 /* Views */,
 			);
 			path = VillainVanquisher;
 			sourceTree = "<group>";
