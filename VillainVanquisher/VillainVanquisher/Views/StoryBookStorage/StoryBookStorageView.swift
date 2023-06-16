@@ -8,10 +8,32 @@
 import SwiftUI
 
 struct StoryBookStorageView: View {
+    
+    
     var body: some View {
         NavigationView {
             ScrollView {
-                Rectangle()
+                LazyVGrid(columns: []) {
+
+                }
+            }
+            .navigationTitle("보관함")
+            .toolbar {
+                ToolbarItemGroup(placement: .navigationBarTrailing) {
+                    Text("편집")
+                        .foregroundColor(.pink)
+                }
+            }
+            .toolbar {
+                ToolbarItemGroup(placement: .bottomBar) {
+                    Spacer()
+                    Button {
+                        print("편집")
+                    } label: {
+                        Image(systemName: "square.and.pencil")
+                            .foregroundColor(.pink)
+                    }
+                }
             }
         }
     }
