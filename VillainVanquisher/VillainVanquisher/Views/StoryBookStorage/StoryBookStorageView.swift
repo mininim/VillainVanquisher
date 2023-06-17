@@ -8,8 +8,49 @@
 import SwiftUI
 
 struct StoryBookStorageView: View {
+    
+    let columns: [GridItem] = [
+        GridItem(.flexible(), spacing: nil, alignment: nil),
+        GridItem(.flexible(), spacing: nil, alignment: nil)
+    ]
+    @StateObject var vm: SavedStoryBookViewModel = SavedStoryBookViewModel()
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        NavigationView {
+            
+            ScrollView {
+                LazyVGrid(columns: self.columns, alignment: .center) {
+                    ForEach(vm.savedStoryBooks) { storyBookEntity in
+                        StoryBookView(storyBook: StoryBook(storyBookEntity: storyBookEntity))
+                    }
+                }
+                .padding(.horizontal)
+            }//ScrollView
+            .navigationTitle("보관함")
+            .toolbar {
+                ToolbarItemGroup(placement: .navigationBarTrailing) {
+                    Button{
+                        vm.clearData()
+                    }label: {
+                        Text("편집")
+                            .foregroundColor(.pink)
+                    }
+                }
+            }//Navigationbar
+            .toolbar {
+                ToolbarItemGroup(placement: .bottomBar) {
+                    Spacer()
+                    Button {
+                        vm.addStoryBook(storyBook: StoryBook.sample)
+                        print("작성하기 ")
+                    } label: {
+                        Image(systemName: "square.and.pencil")
+                            .foregroundColor(.pink)
+                    }
+                }
+            }//BottomBar
+            
+        }
     }
 }
 

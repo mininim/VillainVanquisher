@@ -11,7 +11,7 @@ import SwiftUI
 struct VillainVanquisherApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            StoryBookStorageView()
         }
     }
 }
