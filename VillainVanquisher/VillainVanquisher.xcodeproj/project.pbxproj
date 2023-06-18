@@ -17,6 +17,8 @@
 		0748155A2A38A24100DF6A85 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 074815592A38A24100DF6A85 /* Constants.swift */; };
 		0776A8A82A38B19200CF121E /* StoryBookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0776A8A72A38B19200CF121E /* StoryBookView.swift */; };
 		0776A8AA2A38B8F000CF121E /* Color+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0776A8A92A38B8F000CF121E /* Color+.swift */; };
+		07A780352A3EAE2D00B71714 /* WritingStoryBookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A780342A3EAE2D00B71714 /* WritingStoryBookView.swift */; };
+		07A780382A3EAE5400B71714 /* VillainImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A780372A3EAE5400B71714 /* VillainImageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +33,8 @@
 		074815592A38A24100DF6A85 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		0776A8A72A38B19200CF121E /* StoryBookView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryBookView.swift; sourceTree = "<group>"; };
 		0776A8A92A38B8F000CF121E /* Color+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+.swift"; sourceTree = "<group>"; };
+		07A780342A3EAE2D00B71714 /* WritingStoryBookView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WritingStoryBookView.swift; sourceTree = "<group>"; };
+		07A780372A3EAE5400B71714 /* VillainImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VillainImageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +116,7 @@
 			isa = PBXGroup;
 			children = (
 				074815532A38A05500DF6A85 /* StoryBookStorage */,
+				07A780332A3EAE0700B71714 /* WritingStoryBookView */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -123,6 +128,23 @@
 				0776A8A72A38B19200CF121E /* StoryBookView.swift */,
 			);
 			path = StoryBookStorage;
+			sourceTree = "<group>";
+		};
+		07A780332A3EAE0700B71714 /* WritingStoryBookView */ = {
+			isa = PBXGroup;
+			children = (
+				07A780342A3EAE2D00B71714 /* WritingStoryBookView.swift */,
+				07A780362A3EAE3D00B71714 /* Helper */,
+			);
+			path = WritingStoryBookView;
+			sourceTree = "<group>";
+		};
+		07A780362A3EAE3D00B71714 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				07A780372A3EAE5400B71714 /* VillainImageView.swift */,
+			);
+			path = Helper;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -196,6 +218,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				0776A8AA2A38B8F000CF121E /* Color+.swift in Sources */,
+				07A780352A3EAE2D00B71714 /* WritingStoryBookView.swift in Sources */,
+				07A780382A3EAE5400B71714 /* VillainImageView.swift in Sources */,
 				0748155A2A38A24100DF6A85 /* Constants.swift in Sources */,
 				073F77842A3CA04C002E5078 /* SavedStoryBookViewModel.swift in Sources */,
 				074815552A38A0B200DF6A85 /* StoryBookStorageView.swift in Sources */,

@@ -13,6 +13,7 @@ enum Constants{
 
 enum ImageAsset: String{
     case sampleImage1 = "test_StoryBook_Image"
+    case villianImage = "villain_icon"
     
     var imageName: String{
         return rawValue
