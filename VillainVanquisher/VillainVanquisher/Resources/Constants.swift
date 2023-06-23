@@ -28,7 +28,7 @@ enum ImageAsset: String{
 enum ColorAsset: String{
     case mainText = "TextColor"
     case mainShadow = "ShadowColor"
-    
+    case buttonText = "ButtonTextColor"
     var colorName: String{
         return rawValue
     }
