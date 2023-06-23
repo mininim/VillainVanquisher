@@ -9,7 +9,34 @@ import SwiftUI
 
 struct WritingStoryBookView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ZStack{
+            
+            List {
+                HStack{
+                    Spacer()
+                    VillainImageView()
+                    Spacer()
+                }
+                .padding(40)
+                
+                VillainTextField()
+                
+                VillainTextEditor()
+                
+            }
+            
+            VStack {
+                Spacer()
+                NavigationLink {
+                    
+                } label: {
+                    VillainButton(text: "빌런 퇴치하기")
+                }
+            }
+            .padding(.bottom, 40)
+        }
+        .navigationTitle("빌런 분석")
+        .navigationBarTitleDisplayMode(.inline)
     }
 }
 
