@@ -40,9 +40,8 @@ struct StoryBookStorageView: View {
             .toolbar {
                 ToolbarItemGroup(placement: .bottomBar) {
                     Spacer()
-                    Button {
-                        vm.addStoryBook(storyBook: StoryBook.sample)
-                        print("작성하기 ")
+                    NavigationLink {
+                        WritingStoryBookView()
                     } label: {
                         Image(systemName: "square.and.pencil")
                             .foregroundColor(.pink)
