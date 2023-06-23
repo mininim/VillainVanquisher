@@ -19,6 +19,9 @@
 		0776A8AA2A38B8F000CF121E /* Color+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0776A8A92A38B8F000CF121E /* Color+.swift */; };
 		07A780352A3EAE2D00B71714 /* WritingStoryBookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A780342A3EAE2D00B71714 /* WritingStoryBookView.swift */; };
 		07A780382A3EAE5400B71714 /* VillainImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A780372A3EAE5400B71714 /* VillainImageView.swift */; };
+		07A7803A2A41E2AC00B71714 /* VillainTextEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A780392A41E2AC00B71714 /* VillainTextEditor.swift */; };
+		07A7803C2A45CD9B00B71714 /* VillainTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A7803B2A45CD9B00B71714 /* VillainTextField.swift */; };
+		07A7803E2A45EA5400B71714 /* VillainButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A7803D2A45EA5400B71714 /* VillainButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +38,9 @@
 		0776A8A92A38B8F000CF121E /* Color+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+.swift"; sourceTree = "<group>"; };
 		07A780342A3EAE2D00B71714 /* WritingStoryBookView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WritingStoryBookView.swift; sourceTree = "<group>"; };
 		07A780372A3EAE5400B71714 /* VillainImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VillainImageView.swift; sourceTree = "<group>"; };
+		07A780392A41E2AC00B71714 /* VillainTextEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VillainTextEditor.swift; sourceTree = "<group>"; };
+		07A7803B2A45CD9B00B71714 /* VillainTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VillainTextField.swift; sourceTree = "<group>"; };
+		07A7803D2A45EA5400B71714 /* VillainButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VillainButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,6 +149,9 @@
 			isa = PBXGroup;
 			children = (
 				07A780372A3EAE5400B71714 /* VillainImageView.swift */,
+				07A780392A41E2AC00B71714 /* VillainTextEditor.swift */,
+				07A7803B2A45CD9B00B71714 /* VillainTextField.swift */,
+				07A7803D2A45EA5400B71714 /* VillainButton.swift */,
 			);
 			path = Helper;
 			sourceTree = "<group>";
@@ -217,14 +226,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				07A7803E2A45EA5400B71714 /* VillainButton.swift in Sources */,
 				0776A8AA2A38B8F000CF121E /* Color+.swift in Sources */,
 				07A780352A3EAE2D00B71714 /* WritingStoryBookView.swift in Sources */,
 				07A780382A3EAE5400B71714 /* VillainImageView.swift in Sources */,
 				0748155A2A38A24100DF6A85 /* Constants.swift in Sources */,
+				07A7803A2A41E2AC00B71714 /* VillainTextEditor.swift in Sources */,
 				073F77842A3CA04C002E5078 /* SavedStoryBookViewModel.swift in Sources */,
 				074815552A38A0B200DF6A85 /* StoryBookStorageView.swift in Sources */,
 				0776A8A82A38B19200CF121E /* StoryBookView.swift in Sources */,
 				0748153E2A38089700DF6A85 /* VillainVanquisherApp.swift in Sources */,
+				07A7803C2A45CD9B00B71714 /* VillainTextField.swift in Sources */,
 				074815512A389ED700DF6A85 /* StoryBook.swift in Sources */,
 				073F77812A3C9FED002E5078 /* StoryBookContainer.xcdatamodeld in Sources */,
 			);
