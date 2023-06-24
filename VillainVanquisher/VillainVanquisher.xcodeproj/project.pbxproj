@@ -22,6 +22,9 @@
 		07A7803A2A41E2AC00B71714 /* VillainTextEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A780392A41E2AC00B71714 /* VillainTextEditor.swift */; };
 		07A7803C2A45CD9B00B71714 /* VillainTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A7803B2A45CD9B00B71714 /* VillainTextField.swift */; };
 		07A7803E2A45EA5400B71714 /* VillainButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A7803D2A45EA5400B71714 /* VillainButton.swift */; };
+		07A780422A46912800B71714 /* EditingStoryBookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A7803F2A4685D500B71714 /* EditingStoryBookView.swift */; };
+		07A780442A46918100B71714 /* LoadingEditingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A780432A46918100B71714 /* LoadingEditingView.swift */; };
+		07A780472A47304F00B71714 /* EditingStoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A780462A47304F00B71714 /* EditingStoryView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +44,9 @@
 		07A780392A41E2AC00B71714 /* VillainTextEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VillainTextEditor.swift; sourceTree = "<group>"; };
 		07A7803B2A45CD9B00B71714 /* VillainTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VillainTextField.swift; sourceTree = "<group>"; };
 		07A7803D2A45EA5400B71714 /* VillainButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VillainButton.swift; sourceTree = "<group>"; };
+		07A7803F2A4685D500B71714 /* EditingStoryBookView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditingStoryBookView.swift; sourceTree = "<group>"; };
+		07A780432A46918100B71714 /* LoadingEditingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingEditingView.swift; sourceTree = "<group>"; };
+		07A780462A47304F00B71714 /* EditingStoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditingStoryView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +129,7 @@
 			children = (
 				074815532A38A05500DF6A85 /* StoryBookStorage */,
 				07A780332A3EAE0700B71714 /* WritingStoryBookView */,
+				07A780412A4685D900B71714 /* EditingStoryBookView */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -152,6 +159,24 @@
 				07A780392A41E2AC00B71714 /* VillainTextEditor.swift */,
 				07A7803B2A45CD9B00B71714 /* VillainTextField.swift */,
 				07A7803D2A45EA5400B71714 /* VillainButton.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		07A780412A4685D900B71714 /* EditingStoryBookView */ = {
+			isa = PBXGroup;
+			children = (
+				07A7803F2A4685D500B71714 /* EditingStoryBookView.swift */,
+				07A780452A47301800B71714 /* Helper */,
+			);
+			path = EditingStoryBookView;
+			sourceTree = "<group>";
+		};
+		07A780452A47301800B71714 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				07A780432A46918100B71714 /* LoadingEditingView.swift */,
+				07A780462A47304F00B71714 /* EditingStoryView.swift */,
 			);
 			path = Helper;
 			sourceTree = "<group>";
@@ -227,6 +252,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				07A7803E2A45EA5400B71714 /* VillainButton.swift in Sources */,
+				07A780472A47304F00B71714 /* EditingStoryView.swift in Sources */,
 				0776A8AA2A38B8F000CF121E /* Color+.swift in Sources */,
 				07A780352A3EAE2D00B71714 /* WritingStoryBookView.swift in Sources */,
 				07A780382A3EAE5400B71714 /* VillainImageView.swift in Sources */,
@@ -234,11 +260,13 @@
 				07A7803A2A41E2AC00B71714 /* VillainTextEditor.swift in Sources */,
 				073F77842A3CA04C002E5078 /* SavedStoryBookViewModel.swift in Sources */,
 				074815552A38A0B200DF6A85 /* StoryBookStorageView.swift in Sources */,
+				07A780422A46912800B71714 /* EditingStoryBookView.swift in Sources */,
 				0776A8A82A38B19200CF121E /* StoryBookView.swift in Sources */,
 				0748153E2A38089700DF6A85 /* VillainVanquisherApp.swift in Sources */,
 				07A7803C2A45CD9B00B71714 /* VillainTextField.swift in Sources */,
 				074815512A389ED700DF6A85 /* StoryBook.swift in Sources */,
 				073F77812A3C9FED002E5078 /* StoryBookContainer.xcdatamodeld in Sources */,
+				07A780442A46918100B71714 /* LoadingEditingView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
