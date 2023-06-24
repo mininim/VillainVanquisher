@@ -28,7 +28,7 @@ struct WritingStoryBookView: View {
             VStack {
                 Spacer()
                 NavigationLink {
-                    
+                    EditingStoryBookView()
                 } label: {
                     VillainButton(text: "빌런 퇴치하기")
                 }
