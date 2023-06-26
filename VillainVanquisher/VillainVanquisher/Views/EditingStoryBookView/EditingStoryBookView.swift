@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct EditingStoryBookView: View {
+    @ObservedObject var viewModel: MakingStoryBookViewModel
     @State var isLoaded: Bool = false
     
     var body: some View {
@@ -31,6 +32,6 @@ struct EditingStoryBookView: View {
 
 struct EditingStoryBookView_Previews: PreviewProvider {
     static var previews: some View {
-        EditingStoryBookView()
+        EditingStoryBookView(viewModel: MakingStoryBookViewModel())
     }
 }
