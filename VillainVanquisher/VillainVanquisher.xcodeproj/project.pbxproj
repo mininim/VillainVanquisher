@@ -47,6 +47,8 @@
 		07A7803F2A4685D500B71714 /* EditingStoryBookView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditingStoryBookView.swift; sourceTree = "<group>"; };
 		07A780432A46918100B71714 /* LoadingEditingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingEditingView.swift; sourceTree = "<group>"; };
 		07A780462A47304F00B71714 /* EditingStoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditingStoryView.swift; sourceTree = "<group>"; };
+		07A780762A48766300B71714 /* Bimiliya.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Bimiliya.xcconfig; sourceTree = "<group>"; };
+		07A780782A487BDB00B71714 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +89,7 @@
 		0748153C2A38089700DF6A85 /* VillainVanquisher */ = {
 			isa = PBXGroup;
 			children = (
+				07A780782A487BDB00B71714 /* Info.plist */,
 				0748153D2A38089700DF6A85 /* VillainVanquisherApp.swift */,
 				074815432A38089900DF6A85 /* Preview Content */,
 				074815412A38089900DF6A85 /* Assets.xcassets */,
@@ -112,6 +115,7 @@
 				074815592A38A24100DF6A85 /* Constants.swift */,
 				0776A8A92A38B8F000CF121E /* Color+.swift */,
 				073F777F2A3C9FED002E5078 /* StoryBookContainer.xcdatamodeld */,
+				07A780762A48766300B71714 /* Bimiliya.xcconfig */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -389,6 +393,7 @@
 		};
 		074815492A38089900DF6A85 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07A780762A48766300B71714 /* Bimiliya.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -398,6 +403,7 @@
 				DEVELOPMENT_TEAM = PX9ZAGMV5G;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = VillainVanquisher/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -419,6 +425,7 @@
 		};
 		0748154A2A38089900DF6A85 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07A780762A48766300B71714 /* Bimiliya.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -428,6 +435,7 @@
 				DEVELOPMENT_TEAM = PX9ZAGMV5G;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = VillainVanquisher/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
