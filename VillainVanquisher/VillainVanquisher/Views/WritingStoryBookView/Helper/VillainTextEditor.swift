@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct VillainTextEditor: View {
-    @State var text: String = ""
+    @Binding var text: String
     
     var body: some View {
         
@@ -33,6 +33,6 @@ struct VillainTextEditor: View {
 
 struct VillainTextEidtor_Previews: PreviewProvider {
     static var previews: some View {
-        VillainTextEditor(text: "")
+        VillainTextEditor(text: .constant(""))
     }
 }

@@ -8,6 +8,8 @@
 import SwiftUI
 
 struct WritingStoryBookView: View {
+    @StateObject var viewModel: MakingStoryBookViewModel = MakingStoryBookViewModel()
+    
     var body: some View {
         ZStack{
             
@@ -19,16 +21,16 @@ struct WritingStoryBookView: View {
                 }
                 .padding(40)
                 
-                VillainTextField()
+                VillainTextField(name: $viewModel.villainName)
                 
-                VillainTextEditor()
+                VillainTextEditor(text: $viewModel.villainCharacter)
                 
             }
             
             VStack {
                 Spacer()
                 NavigationLink {
-                    EditingStoryBookView()
+                    EditingStoryBookView(viewModel: self.viewModel)
                 } label: {
                     VillainButton(text: "빌런 퇴치하기")
                 }

@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct VillainTextField: View {
-    @State var name: String = ""
+    @Binding var name: String
     
     var body: some View {
         HStack(spacing: 0){
@@ -36,6 +36,6 @@ struct VillainTextField: View {
 
 struct VillainTextField_Previews: PreviewProvider {
     static var previews: some View {
-        VillainTextField()
+        VillainTextField(name: .constant(""))
     }
 }
