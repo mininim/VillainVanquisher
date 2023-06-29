@@ -291,6 +291,7 @@
 /* Begin XCBuildConfiguration section */
 		074815462A38089900DF6A85 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07A780762A48766300B71714 /* Bimiliya.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -351,6 +352,7 @@
 		};
 		074815472A38089900DF6A85 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07A780762A48766300B71714 /* Bimiliya.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
