@@ -15,17 +15,17 @@ struct EditingStoryBookView: View {
         ZStack{
             
             LoadingEditingView()
-                .onTapGesture {
-                    isLoaded.toggle()
-                }
             
-            if isLoaded{
+            if viewModel.isLoaded{
                 EditingStoryView()
                     .transition(.opacity.animation(.easeIn))
             }
             
         }
-        .navigationTitle(isLoaded ? "편집" : "빌런 참교육 중")
+        .task {
+            self.viewModel.sendMessage()
+        }
+        .navigationTitle(viewModel.isLoaded ? "편집" : "빌런 참교육 중")
         .navigationBarTitleDisplayMode(.inline)
     }
 }
