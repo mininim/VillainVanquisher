@@ -8,7 +8,23 @@
 import SwiftUI
 
 enum Constants{
+    enum Keys{
+        static let apiKey = "ChatGPT_API_KEY"
+    }
     
+    private static let infoDictionary: [String: Any] = {
+        guard let dic = Bundle.main.infoDictionary else {
+            fatalError("Error: plist file not found")
+        }
+        return dic
+    }()
+    
+    static let apiKey: String = {
+        guard let apiKeyString = Constants.infoDictionary[Keys.apiKey] as? String else {
+            fatalError("Error: API Key not set in plist")
+        }
+        return apiKeyString
+    }()
 }
 
 enum ImageAsset: String{
