@@ -26,6 +26,7 @@
 		07A780442A46918100B71714 /* LoadingEditingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A780432A46918100B71714 /* LoadingEditingView.swift */; };
 		07A780472A47304F00B71714 /* EditingStoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A780462A47304F00B71714 /* EditingStoryView.swift */; };
 		07A7806F2A4873B500B71714 /* MakingStoryBookViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A7806E2A4873B500B71714 /* MakingStoryBookViewModel.swift */; };
+		07A780732A48753600B71714 /* OpenAIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A780722A48753600B71714 /* OpenAIService.swift */; };
 		07A7807B2A4D1A2700B71714 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 07A7807A2A4D1A2700B71714 /* Alamofire */; };
 /* End PBXBuildFile section */
 
@@ -50,6 +51,7 @@
 		07A780432A46918100B71714 /* LoadingEditingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingEditingView.swift; sourceTree = "<group>"; };
 		07A780462A47304F00B71714 /* EditingStoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditingStoryView.swift; sourceTree = "<group>"; };
 		07A7806E2A4873B500B71714 /* MakingStoryBookViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MakingStoryBookViewModel.swift; sourceTree = "<group>"; };
+		07A780722A48753600B71714 /* OpenAIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenAIService.swift; sourceTree = "<group>"; };
 		07A780762A48766300B71714 /* Bimiliya.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Bimiliya.xcconfig; sourceTree = "<group>"; };
 		07A780782A487BDB00B71714 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -101,6 +103,7 @@
 				0748154B2A389D9100DF6A85 /* Resources */,
 				0748154F2A389EB700DF6A85 /* Models */,
 				073F77822A3CA03C002E5078 /* ViewModels */,
+				07A7806D2A486F7F00B71714 /* Network */,
 				074815522A389FFE00DF6A85 /* Views */,
 			);
 			path = VillainVanquisher;
@@ -190,6 +193,14 @@
 			path = Helper;
 			sourceTree = "<group>";
 		};
+		07A7806D2A486F7F00B71714 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				07A780722A48753600B71714 /* OpenAIService.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -271,6 +282,7 @@
 				0776A8AA2A38B8F000CF121E /* Color+.swift in Sources */,
 				07A780352A3EAE2D00B71714 /* WritingStoryBookView.swift in Sources */,
 				07A780382A3EAE5400B71714 /* VillainImageView.swift in Sources */,
+				07A780732A48753600B71714 /* OpenAIService.swift in Sources */,
 				07A7806F2A4873B500B71714 /* MakingStoryBookViewModel.swift in Sources */,
 				0748155A2A38A24100DF6A85 /* Constants.swift in Sources */,
 				07A7803A2A41E2AC00B71714 /* VillainTextEditor.swift in Sources */,
