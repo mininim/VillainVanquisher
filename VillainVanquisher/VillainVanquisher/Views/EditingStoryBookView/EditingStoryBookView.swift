@@ -17,7 +17,7 @@ struct EditingStoryBookView: View {
             LoadingEditingView()
             
             if viewModel.isLoaded{
-                EditingStoryView()
+                EditingStoryView(text: $viewModel.content)
                     .transition(.opacity.animation(.easeIn))
             }
             

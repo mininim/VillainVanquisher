@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct EditingStoryView: View {
-    @State var text: String = StoryBook.sample.contents
+    @Binding var text: String
     
     var body: some View {
         TextEditor(text: $text)
@@ -18,6 +18,6 @@ struct EditingStoryView: View {
 
 struct EditingStoryView_Previews: PreviewProvider {
     static var previews: some View {
-        EditingStoryView()
+        EditingStoryView(text: .constant(StoryBook.sample.contents))
     }
 }
